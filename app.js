@@ -3,6 +3,8 @@ const app = express()
 const cors = require("cors")
 const PORT = 8000
 
+//db
+const db = require("./db")
 //routes
 const authRoute = require('./API/Routes/auth.route');
 
